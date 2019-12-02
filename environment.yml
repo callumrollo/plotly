@@ -1,0 +1,13 @@
+name: plotly
+channels:
+   - conda-forge
+dependencies:
+   - python
+   - ipython
+   - jupyter
+   - numpy
+   - plotly
+   - plotly_express
+   - pip
+   - pip:
+           cufflinks>=0.15
